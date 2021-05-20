@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// Adapted from SimplePlayerController script found in Week 2 project
 public class SimplePlayerController : MonoBehaviour
 {
     // mouse sensitivity
