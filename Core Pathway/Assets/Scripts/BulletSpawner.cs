@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// adapted from spawners/repeaters tutorial
 public class BulletSpawner : MonoBehaviour
 {
     /// <summary>Bullet object</summary>

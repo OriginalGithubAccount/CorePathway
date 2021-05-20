@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4366757, g: 0.48427194, b: 0.5645252, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1206,6 +1206,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 326817987136604269, guid: 60a08d4191385c74284205690ee22f7e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.054
+      objectReference: {fileID: 0}
+    - target: {fileID: 326817987136604269, guid: 60a08d4191385c74284205690ee22f7e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 326817986684943167, guid: 60a08d4191385c74284205690ee22f7e, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 60a08d4191385c74284205690ee22f7e, type: 3}
@@ -1972,8 +1980,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pressure Plate (1)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2671533942572456276, guid: de7c7fe0468d58547aa76992e561b502, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: de7c7fe0468d58547aa76992e561b502, type: 3}
+--- !u!1 &2084583391 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2671533942572456283, guid: de7c7fe0468d58547aa76992e561b502, type: 3}
+  m_PrefabInstance: {fileID: 2083906741}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2084583392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084583391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61a587f4dd0175246a4976d4daa9f895, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObjectToActivate: {fileID: 2139192249}
 --- !u!1 &2108387344
 GameObject:
   m_ObjectHideFlags: 0
