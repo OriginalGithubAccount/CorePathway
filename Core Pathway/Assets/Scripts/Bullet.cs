@@ -13,19 +13,4 @@ public class Bullet : MonoBehaviour
     {
         transform.position += (new Vector3(0, 0, 1) * Time.deltaTime * Speed);
     }
-
-    // void OnTriggerEnter(Collider other)
-    // {
-    //     if(other.gameObject.tag == "Player")
-    //     {
-    //         CharacterController controller = other.GetComponent<CharacterController>();
-
-    //         if(controller != null)
-    //         {
-    //             // controller.enabled = false;
-    //             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-    //             // controller.enabled = true;
-    //         }
-    //     }
-    // }
 }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+/// <summary>Reset the scene when colliding with player</summary>
 public class KillPlayer : MonoBehaviour
 {
     CharacterController controller;

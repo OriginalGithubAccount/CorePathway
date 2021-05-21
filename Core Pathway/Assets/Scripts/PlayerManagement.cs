@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+/// <summary>Manage some non-movement keybindings</summary>
 public class PlayerManagement : MonoBehaviour
 {
     // Update is called once per frame

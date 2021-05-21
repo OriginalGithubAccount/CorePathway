@@ -8,8 +8,11 @@ public class BulletSpawner : MonoBehaviour
     /// <summary>Bullet object</summary>
     public GameObject Bullet;
 
+    /// <summary>Time it take for first bullet to spawn</summary>
     public float SpawnTime;
+    /// <summary>Cooldown before shots</summary>
     public float SpawnDelay;
+    /// <summary>Lifetime of bullet in seconds</summary>
     public float DestroyDelay;
     
     // Start is called before the first frame update
